@@ -11,6 +11,8 @@ propositional damage in LLM generation — against the "bleached equilibrium" nu
   endpoints (ADR-TPF-002), judging (ADR-TPF-003)
 - **Tactical decisions:** [`loose-ends.md`](loose-ends.md) — sub-ADR choices with
   graduation triggers
+- **Working notes:** [`notes/`](notes/README.md) — raw provenance (genesis transcript,
+  inspiring source material), subordinate to `decisions/` and `loose-ends.md`
 - **Phases (implicit in the ADRs; roadmap doc TBD):** pilot → pre-registration freeze
   (rubric κ gate, power re-plan, judge-family fixation) → main run
 

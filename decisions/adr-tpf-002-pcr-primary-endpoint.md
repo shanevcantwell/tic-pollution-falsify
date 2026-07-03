@@ -2,7 +2,10 @@
 
 **Status**: `accepted`
 **Date**: 2026-07-03
-**Related**: ADR-TPF-001 (instrument), ADR-TPF-003 (judging)
+**Revised**: 2026-07-03 — H0₃ comparator re-specified; H0₄ split out to ADR-TPF-004;
+matrix dependence and endpoint disposition recorded — per
+`reviews/2026-07-03-h0-family-review.md`
+**Related**: ADR-TPF-001 (instrument), ADR-TPF-003 (judging), ADR-TPF-004 (H0₄ instrument)
 
 ---
 
@@ -22,13 +25,22 @@ thesis: *forged credential* (the tic licenses false downstream inferences) vs.
 2. **Secondary endpoint — register drift:** prestige-lexeme density per 100 tokens
    (pre-registered lexicon) and lexical-diversity measures. Token echoes count here.
 3. **Hypothesis family:** H0₁ propositional inertness (PCR equal across arms);
-   H0₂ register inertness; H0₃ class equivalence (precision-implying vs. register-only
-   tic swaps produce equal PCR deltas); H0₄ instruction locality (the textbook-meaning
-   preference line affects only target-token emission), tested in a factorial that
-   includes a register-neutral arbitrary-ban control arm.
+   H0₂ register inertness; H0₃ class equivalence (swaps of the target token vs. a second
+   *misused precision-implying* token — e.g. "isomorphic" — produce equal PCR deltas;
+   the earlier register-only comparator ("delve") is retired: it has no literal reading
+   to license a precision inference, so its PCR delta is ≈0 by construction and the
+   comparison collapses into H0₁, besides not filling the same syntactic slot); H0₄
+   instruction locality, restated across three levels (frequency / earned-ness /
+   generalization) with its own instrument — **see ADR-TPF-004**, which also supplies
+   the correct-usage arm separating misuse from mere presence. Factorial includes the
+   register-neutral arbitrary-ban control arm and ADR-TPF-004's specificity-matched arm.
 4. **Pre-registered time-signature prediction:** PCR effects grow with continuation length
    (coherence debt compounds); register effects appear immediately. Divergence of these
-   two curves is evidence no single-channel alternative explains easily.
+   two curves is evidence no single-channel alternative explains easily. **This is also
+   the interpretation matrix's identifying assumption, not merely a prediction:** if PCR
+   and register drift covary at all lengths, the "reject H0₂ only" (bleached) cell is not
+   cleanly reachable, and matrix conclusions must be conditioned on the observed
+   separation.
 
 ## Rationale
 
@@ -47,6 +59,13 @@ distinguishable.
 ### Negative Consequences
 - Diffuse damage not captured by either endpoint is missed by the confirmatory analysis
   (accepted; exploratory analyses permitted but must be labeled as such).
+- **Factual-error-rate scoring** (a co-equal candidate in the genesis material) is
+  deliberately demoted to labeled exploratory analysis: it overlaps PCR on the
+  confirmatory question while importing the holistic-judging noise Option A was rejected
+  for. Recorded so the demotion is a decision, not an omission.
+- PCR contrasts inherit paraphrase-construction risk **in both directions** — a poorly
+  authored honest paraphrase can manufacture or mask an effect; bounded by the
+  explicit-claim positive and inert-synonym negative controls (loose-ends ledger).
 - PCR base rates are unknown; power planning is provisional pending pilot (see
   loose-ends ledger).
 

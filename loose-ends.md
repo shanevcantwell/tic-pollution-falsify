@@ -137,3 +137,30 @@ null on both endpoints).
 - [x] Hard to reverse? → No; controls can be added or swapped freely pre-registration.
 
 ---
+
+## 2026-07-03 — Mechanistic & lineage tiers now in-scope: base weights in hand
+
+**Category:** provisional
+**Related ADR:** ADR-TPF-001 (Option A deferral), ADR-TPF-003 (judge scope)
+**Graduation trigger:** When either tier gets designed, it becomes its own ADR
+(activation-patching protocol; base-vs-instruct lineage comparison).
+
+### Context
+ADR-TPF-001 rejected activation steering for the causal-existence question and deferred
+mechanism-localization partly on closed-weights grounds. Local base weights (e.g. gemma-4
+base) plus local inference hardware dissolve the availability premise; the rejection's
+*logic* stands, the deferral's *gating* no longer does.
+
+### Decision
+Record two follow-on tiers as in-scope but undesigned: (1) **mechanistic** — activation
+patching over the spliced span, attention/logit-lens readouts at the consumption site;
+measured, not judged (outside ADR-TPF-003's apparatus). (2) **lineage** — identical splice
+pairs through base vs instruct weights of the same model, converting ADR-TPF-003's
+contamination assumption into a testable claim. Behavioral-harness candidate: prompt-prix
+(PPX) — polish tracked in that repo, not here.
+
+### Why Not an ADR?
+- [x] Hard to reverse? → No; nothing is committed beyond "no longer gated on access."
+- [x] Real trade-off? → Deferred rather than decided; no design choices made.
+
+---

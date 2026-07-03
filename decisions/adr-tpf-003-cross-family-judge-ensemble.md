@@ -24,6 +24,10 @@ measurement apparatus.
 - **~5% human subsample**, double-rated, with inter-rater agreement (κ) reported for both
   human–human and human–ensemble pairs.
 - Judge prompts never mention vocabulary, precision, or the manipulated token.
+- **Scope:** this apparatus governs *behavioral* endpoints only (PCR, register drift,
+  earned-ness). Mechanistic endpoints — activation-level measurements in the ADR-TPF-001
+  follow-up tier — are measured, not judged; no ensemble, κ gate, or human subsample
+  applies to them.
 
 ## Rationale
 

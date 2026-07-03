@@ -3,8 +3,9 @@
 **Date:** 2026-07-03
 **Reviewer:** adversarial methodological review (frontier-model pass, dispatched from the
 curator seat at operator request — "make sure the H0 follows")
-**Inputs:** ADR-TPF-001/002/003, loose-ends.md, notes/metadiscussion_of_h0_generation.md
-(genesis transcript, cited by transcript line L#), notes/inspiring_a_b.md (A/B seed)
+**Inputs:** ADR-TPF-001/002/003, loose-ends.md, notes/metadiscussion-of-h0-generation.md
+(genesis transcript, cited by transcript line L#), notes/orthogonal-directive-ab-transcripts.md
+(A/B seed)
 **Verdict:** **Yes, with named repairs.** All four H0 trace to the genesis transcript
 (L41–L44); H0₁ and H0₂ are sound as operationalized. Three repairs are load-bearing
 before pre-registration freeze.
@@ -60,7 +61,8 @@ target-concept precision when used, (iii) unrelated-dimension precision — and 
 specificity-matched control arm.
 
 ### 6. Seed fidelity (confirmation with limits)
-inspiring_a_b.md is n=1 per arm, one model, one domain, sampling unknown, and the two
+orthogonal-directive-ab-transcripts.md is n=1 per arm, one model, one domain, sampling
+unknown, and the two
 runs have different search trajectories (retrieved-evidence confound, genesis L9). The
 ADRs correctly quarantine it as motivation, not evidence; the single over-read is
 finding 5.

@@ -1,6 +1,6 @@
 # Use premise-consumption rate (PCR) as the primary endpoint
 
-**Status**: `accepted`
+**Status**: `model-drafted; ratification pending (ADR-TPF-005); endpoint superseded by ADR-TPF-007`
 **Date**: 2026-07-03
 **Related**: ADR-TPF-001 (instrument), ADR-TPF-003 (judging)
 

@@ -1,6 +1,6 @@
 # Require a cross-family judge ensemble with human subsample
 
-**Status**: `accepted`
+**Status**: `model-drafted; ratification pending (ADR-TPF-005); family-independence assumption challenged (ADR-TPF-006 §3)`
 **Date**: 2026-07-03
 **Related**: ADR-TPF-002 (endpoints being judged)
 

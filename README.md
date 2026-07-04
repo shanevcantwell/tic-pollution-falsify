@@ -7,12 +7,13 @@ propositional damage in LLM generation — against the "bleached equilibrium" nu
 (register contagion without propositional consequence).
 
 - **ADR repo-code:** `TPF` (registered in `design-docs/adr-refactor/codes.txt`)
-- **Decision records:** [`decisions/`](decisions/README.md) — instrument (ADR-TPF-001),
-  endpoints (ADR-TPF-002), judging (ADR-TPF-003)
+- **Decision records:** [`docs/`](docs/README.md) — instrument priority (ADR-TPF-006),
+  endpoint (ADR-TPF-007), provenance discipline (ADR-TPF-005); ADR-TPF-001/002/003
+  model-drafted, ratification pending
 - **Tactical decisions:** [`loose-ends.md`](loose-ends.md) — sub-ADR choices with
   graduation triggers
 - **Working notes:** [`notes/`](notes/README.md) — raw provenance (genesis transcript,
-  inspiring source material), subordinate to `decisions/` and `loose-ends.md`
+  inspiring source material), subordinate to `docs/` and `loose-ends.md`
 - **Phases (implicit in the ADRs; roadmap doc TBD):** pilot → pre-registration freeze
   (rubric κ gate, power re-plan, judge-family fixation) → main run
 

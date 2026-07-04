@@ -1,6 +1,6 @@
 # Use prefix-splice minimal pairs as the causal instrument
 
-**Status**: `accepted`
+**Status**: `model-drafted; ratification pending (ADR-TPF-005); demoted to secondary instrument by ADR-TPF-006`
 **Date**: 2026-07-03
 **Related**: ADR-TPF-002 (endpoint definition), ADR-TPF-003 (judging)
 
